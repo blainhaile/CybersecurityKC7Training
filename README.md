@@ -26,7 +26,7 @@ Ask questions that mirror the investigative path Threat Intel Analysts would use
 
 ### 1. **Frognado in Valdoria**
 - **Description**: I successfully investigated a hacktivist intrusion on FramtidX’s system. Through my use of Kusto Query Language (KQL), I discovered how the intruders managed to deface the company’s website and internal documents. I followed the activities of the threat actor, from reconnaissance to exfiltration, and uncovered the use of an internal account to further their compromise.
-- **Key Achievements**: Discovered threat actor reconnaissance, identified internal account misuse, and mitigated further compromise.
+- **Key Achievements**: Discovered threat actor reconnaissance, and identified internal account misuse.
 - **Skills Gained**: Threat actor tracking, website defacement analysis, and data exfiltration detection.
 
 ### 2. **Rap Beef**
@@ -41,18 +41,18 @@ Ask questions that mirror the investigative path Threat Intel Analysts would use
 
 ### 4. **Titan Shield**
 - **Description**: I successfully investigated two highly sophisticated cyberattacks against TitanShield’s sensitive projects. I demonstrated advanced investigative skills in identifying social engineering tactics, malicious file execution, and data exfiltration strategies. Utilizing Microsoft Defender XDR, I detected advanced persistent threats (APTs).
-- **Key Achievements**: Unraveled phishing campaigns, detected romance schemes, and safeguarded intellectual property.
+- **Key Achievements**: Unraveled phishing campaigns and detected romance schemes.
 - **Skills Gained**: Advanced threat detection, endpoint security, social engineering reconnaissance, and advanced defense strategies.
 
 
 ### 5. **AzureCrest**
 - **Description**: I investigated a ransomware attack, where cost-cutting measures led to a single point of failure in their systems. Additionally, I addressed multi-vector attacks targeting cloud-based services, analyzing cloud event logs to uncover unauthorized access attempts.
-- **Key Achievements**: Identified single points of failure, mitigated ransomware attacks, and proposed enhanced security measures.
+- **Key Achievements**: Identified single points of failure.
 - **Skills Gained**: Ransomware analysis, vulnerability identification, cloud security, multi-cloud monitoring, and advanced log querying.
 
 ### 6. **Valdoria Votes**
 - **Description**: I investigated an email phishing attack in Valdoria that uncovered a politically motivated influence campaign. Using KQL, I analyzed employee roles, email communications, and computer process events, revealing evidence of data exfiltration and manipulation.
-- **Key Achievements**: Detected election tampering attempts, safeguarded voting infrastructure, and preserved data integrity.
+- **Key Achievements**: Detected election tampering attempts.
 - **Skills Gained**: Phishing detection, data integrity analysis, and influence campaign investigation.
 
 ### 7. **A Scandal in Valdoria** 🌟
