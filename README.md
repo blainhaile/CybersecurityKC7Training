@@ -4,6 +4,7 @@ Welcome to my KC7 Cybersecurity Repository! My username on the platform is **eth
 
 The KC7 Cybersecurity Simulation is a gamified platform where I actively participate as a **Threat Intelligence Analyst**, identifying and mitigating security threats in dynamic scenarios. This repository includes case descriptions, skills I honed, and the KQL queries I developed to analyze event logs, detect anomalies, and respond to incidents.
 
+- [KC7 Website] (https://kc7cyber.com/)
 
 ## What the KC7 Game Does
 Takes you on a journey exploring data and discovering what actions the adversaries have taken.
@@ -86,5 +87,5 @@ By solving these challenges, I’ve gained hands-on expertise in detecting, anal
 
 I’m passionate about cybersecurity and open to new opportunities to learn and grow. Feel free to explore this repository and connect with me on LinkedIn or GitHub!
 
-- [LinkedIn Profile](https://www.linkedin.com/in/ethiocipher/)
+- [LinkedIn Profile](https://www.linkedin.com/in/blainh/)
 
