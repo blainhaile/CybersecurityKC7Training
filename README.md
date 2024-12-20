@@ -31,7 +31,7 @@ Ask questions that mirror the investigative path Threat Intel Analysts would use
 
 ### 2. **Rap Beef**
 - **Description**: I investigated a web defacement incident linked to rival musicians. Using key cybersecurity skills, I identified suspicious communications and activities, analyzed internal messages, and uncovered patterns of unauthorized exchanges.
-- **Key Achievements**: Discovered the attacker’s IP address, mapped out their attack sequence, and mitigated data risks.
+- **Key Achievements**: Discovered the attacker’s IP address and mapped out their attack sequence.
 - **Skills Gained**: Web application security, forensic investigation, and vulnerability management.
 
 ### 3. **Solvi Systems**
