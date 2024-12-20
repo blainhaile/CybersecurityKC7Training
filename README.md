@@ -36,7 +36,7 @@ Ask questions that mirror the investigative path Threat Intel Analysts would use
 
 ### 3. **Solvi Systems**
 - **Description**: I investigated a ransomware attack targeting a major technology company. Using KQL, I uncovered the threat actor’s reconnaissance efforts, system compromises, and malware activities. I traced the ransomware propagation and identified the initial compromise vector.
-- **Key Achievements**: Tracked phishing campaigns, analyzed malware activity, and strengthened security postures.
+- **Key Achievements**: Tracked phishing campaigns and analyzed malware activity.
 - **Skills Gained**: Malware analysis, phishing detection, lateral movement detection, and containment strategies.
 
 ### 4. **Titan Shield**
