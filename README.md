@@ -45,7 +45,7 @@ Ask questions that mirror the investigative path Threat Intel Analysts would use
 - **Skills Gained**: Advanced threat detection, endpoint security, social engineering reconnaissance, and advanced defense strategies.
 
 
-### 6. **AzureCrest**
+### 5. **AzureCrest**
 - **Description**: I investigated a ransomware attack, where cost-cutting measures led to a single point of failure in their systems. Additionally, I addressed multi-vector attacks targeting cloud-based services, analyzing cloud event logs to uncover unauthorized access attempts.
 - **Key Achievements**: Identified single points of failure, mitigated ransomware attacks, and proposed enhanced security measures.
 - **Skills Gained**: Ransomware analysis, vulnerability identification, cloud security, multi-cloud monitoring, and advanced log querying.
