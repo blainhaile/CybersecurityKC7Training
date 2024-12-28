@@ -1,9 +1,8 @@
 # KC7 Cybersecurity Training
 
-Welcome to my KC7 Cybersecurity Repository! My username on the platform is **ethiocipher**, and this repository documents my hands-on experience solving real-world cybersecurity challenges using **Kusto Query Language (KQL)** and **Azure Data Explorer**.
+Welcome to my KC7 Cybersecurity Repository! My username on the platform is **ethiocipher**, and this repository documents my hands-on experience solving cybersecurity challenges using **Kusto Query Language (KQL)** and **Azure Data Explorer**.
 
-The KC7 Cybersecurity Simulation is a gamified platform where I actively participate as a **Threat Intelligence Analyst**, identifying and mitigating security threats in dynamic scenarios. This repository includes case descriptions, skills I honed, and the KQL queries I developed to analyze event logs, detect anomalies, and respond to incidents.
-
+The KC7 Cybersecurity Simulation is a gamified platform where I actively participate as a **Threat Intelligence Analyst**, identifying security threats in dynamic scenarios. This repository includes case descriptions, and the skills I honed.
 - [KC7 Website](https://kc7cyber.com/)
 
 ## What the KC7 Game Does
@@ -17,7 +16,6 @@ Ask questions that mirror the investigative path Threat Intel Analysts would use
 
 - **Threat Intelligence**: Investigated security incidents.
 - **Event Log Analysis**: Queried and analyzed logs to detect anomalies and patterns indicative of threats.
-- **Network Security**: Explored vulnerabilities and implemented detection mechanisms.
 - **Azure Data Explorer**: Leveraged the power of KQL to interact with datasets and perform advanced analysis.
 
 ---
@@ -40,15 +38,14 @@ Ask questions that mirror the investigative path Threat Intel Analysts would use
 - **Skills Gained**: Malware analysis, phishing detection, lateral movement detection, and containment strategies.
 
 ### 4. **Titan Shield**
-- **Description**: I successfully investigated two highly sophisticated cyberattacks against TitanShield’s sensitive projects. I demonstrated advanced investigative skills in identifying social engineering tactics, malicious file execution, and data exfiltration strategies. Utilizing Microsoft Defender XDR, I detected advanced persistent threats (APTs).
+- **Description**: I successfully investigated two highly sophisticated cyberattacks against TitanShield’s sensitive projects. I demonstrated advanced investigative skills in identifying social engineering tactics, malicious file execution, and data exfiltration strategies. 
 - **Key Achievements**: Unraveled phishing campaigns and detected romance schemes.
 - **Skills Gained**: Advanced threat detection, endpoint security, social engineering reconnaissance, and advanced defense strategies.
 
-
 ### 5. **AzureCrest**
-- **Description**: I investigated a ransomware attack, where cost-cutting measures led to a single point of failure in their systems. Additionally, I addressed multi-vector attacks targeting cloud-based services, analyzing cloud event logs to uncover unauthorized access attempts.
+- **Description**: I investigated a ransomware attack, where cost-cutting measures led to a single point of failure in their systems. 
 - **Key Achievements**: Identified single points of failure.
-- **Skills Gained**: Ransomware analysis, vulnerability identification, cloud security, multi-cloud monitoring, and advanced log querying.
+- **Skills Gained**: Ransomware analysis, vulnerability identification, and advanced log querying.
 
 ### 6. **Valdoria Votes**
 - **Description**: I investigated an email phishing attack in Valdoria that uncovered a politically motivated influence campaign. Using KQL, I analyzed employee roles, email communications, and computer process events, revealing evidence of data exfiltration and manipulation.
@@ -62,24 +59,15 @@ Ask questions that mirror the investigative path Threat Intel Analysts would use
 
 ---
 
-## 🛠 Repository Structure:
-
-- **Case Descriptions**: A breakdown of each scenario, skills applied, and lessons learned.
-- **KQL Query Files**: Contains all the queries used to investigate and resolve cases.
-  - Each file is named after the case, e.g., `A_Scandal_in_Valdoria.kql`.
-- **README**: This document to guide and inform visitors.
-
----
-
 ## 🎯 Why This Matters:
 
 This repository reflects my practical experience as a **Threat Intelligence Analyst** and showcases my ability to:
 
 - Think critically.
 - Leverage technical tools to resolve complex problems.
-- Communicate findings effectively .
+- Communicate findings effectively.
 
-By solving these challenges, I’ve gained hands-on expertise in detecting, analyzing, and mitigating cybersecurity threats, preparing me to excel in real-world scenarios.
+By solving these challenges, I’ve gained hands-on expertise in detecting and analyzing cybersecurity threats, preparing me to excel in real-world scenarios.
 
 ---
 
