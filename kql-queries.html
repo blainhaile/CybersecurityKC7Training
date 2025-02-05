@@ -14,7 +14,7 @@
                 <li><a href="kql-queries.html">KQL Queries</a></li> <!-- Link to KQL Queries page -->
             </ul>
         </nav>
-        <h1 style="color: #FF6600;">KQL Queries for KC7 Case</h1>
+        <h1 style="color: white;">KQL Queries for KC7 Case</h1>
     </header>
     
     <section id="kql-queries">
@@ -23,7 +23,7 @@
         
         <pre>
         <code>
-          // SQ30. How many unique IP addresses did this attacker use to communicate with the infected hosts?
+// SQ30. How many unique IP addresses did this attacker use to communicate with the infected hosts?
 let dist_file =
 FileCreationEvents
 | where path has "C:\\Users\\Public"
@@ -41,7 +41,7 @@ ProcessEvents
         
         <pre>
         <code>
-S3Q16. Investigate the running processes. There are suspicious processes conducting reconnaissance. How many unique directory paths are these suspicious processes located in on infected host machines?
+// S3Q16. Investigate the running processes. There are suspicious processes conducting reconnaissance. How many unique directory paths are these suspicious processes located in on infected host machines?
 let sus_host =
 FileCreationEvents
 | where filename contains "Ginger_beer_secret_recipe.pdf"
