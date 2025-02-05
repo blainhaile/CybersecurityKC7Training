@@ -1,14 +1,15 @@
 /* Basic styling for the page */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #fff;  /* Set background color to white */
+    color: #333;  /* Set text color to dark grey for readability */
 }
 
 header {
-    background-color: #333;
+    background-color: #FF8C00;  /* Dark Tangerine Orange */
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -16,6 +17,28 @@ header {
 
 header h1 {
     margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #003366;  /* Dark Blue for links */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #FF8C00;  /* Hover color for links */
 }
 
 section {
@@ -27,11 +50,24 @@ section {
 }
 
 section h2 {
-    color: #333;
+    color: #003366;  /* Dark Blue for section headers */
+}
+
+section h3 {
+    color: #003366;  /* Dark Blue for subsection headers */
 }
 
 ul, ol {
     margin-left: 20px;
+}
+
+pre {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
 }
 
 footer {
@@ -41,7 +77,7 @@ footer {
     color: #fff;
 }
 
-footer a {
-    color: #ff6347;
-    text-decoration: none;
+footer p {
+    margin: 0;
+    font-size: 16px;
 }
