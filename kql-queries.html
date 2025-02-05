@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KQL Queries</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li> <!-- Link to Home page -->
+                <li><a href="kql-queries.html">KQL Queries</a></li> <!-- Link to KQL Queries page -->
+            </ul>
+        </nav>
+        <h1 style="color: #FF6600;">KQL Queries for KC7 Case</h1>
+    </header>
+    
+    <section id="kql-queries">
+        <h2 style="color: darkblue;">KQL Queries</h2>
+        <p>Below are the KQL queries used for analyzing the HopsNStuff cybersecurity breach:</p>
+        
+        <pre>
+        <code>
+          // SQ30. How many unique IP addresses did this attacker use to communicate with the infected hosts?
+let dist_file =
+FileCreationEvents
+| where path has "C:\\Users\\Public"
+| distinct filename;
+ProcessEvents
+| where parent_process_name in (dist_file)
+| extend ExtractedIP = extract(@"(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})", 0, process_commandline)
+| where isnotempty(ExtractedIP)
+| distinct ExtractedIP
+// 15
+
+
+        </code>
+        </pre>
+        
+        <pre>
+        <code>
+S3Q16. Investigate the running processes. There are suspicious processes conducting reconnaissance. How many unique directory paths are these suspicious processes located in on infected host machines?
+let sus_host =
+FileCreationEvents
+| where filename contains "Ginger_beer_secret_recipe.pdf"
+| distinct hostname;
+let sus_process =
+ProcessEvents
+| where hostname in (sus_host)
+| where process_commandline contains "whoami"
+| distinct parent_process_name;
+FileCreationEvents
+| where filename has_any (sus_process)
+| extend folderpath = tostring(parse_path(path).DirectoryPath)
+| where folderpath != "C:"
+| distinct folderpath
+// 2
+
+        </code>
+        </pre>
+    </section>
+
+    <footer>
+        <p>Blain H</p>
+    </footer>
+</body>
+</html>
