@@ -69,32 +69,6 @@
         </ul>
     </section>
 
-    <section id="kql-queries">
-        <h2>KQL Queries</h2>
-        <h3>Query 1: Suspicious File Activity</h3>
-        <pre>
-        // Query to identify suspicious file activity across hosts
-        FileEvents
-        | where FileName in ('Dev-Requirements.zip', 'RabbitMQ.exe', 'Mimikatz.exe')
-        | project TimeGenerated, Computer, FileName, FilePath
-        </pre>
-
-        <h3>Query 2: External IP Connections</h3>
-        <pre>
-        // Query to identify external IP addresses accessing internal machines
-        NetworkConnections
-        | where RemoteIP in ('184.48.44.45', 'moneybags.biz')
-        | project TimeGenerated, Computer, RemoteIP, RemotePort
-        </pre>
-
-        <h3>Query 3: Data Exfiltration Activity</h3>
-        <pre>
-        // Query to detect data exfiltration tools like rclone
-        ProcessEvents
-        | where ProcessName == 'rclone.exe'
-        | project TimeGenerated, Computer, ProcessName, CommandLine
-        </pre>
-    </section>
 
     <footer>
         <p>Blain H</p>
